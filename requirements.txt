@@ -1,0 +1,27 @@
+required modules to install
+
+npm install express mysql2 cors  -- for backend
+npm install axios   --for frontend
+npm install react react-dom -- for frontend
+
+npm install -g create-react-app 
+npx create-react-app frontend      -- to install react and frontend json(in main folder)
+
+
+Step1 : create database
+step 2 : create backend code nodejs, api
+step 3: create frontend code
+step4: using git commands upload to github  , create repo first in github
+step5: using ansible
+
+
+-----------------step4------
+git init        // initialize git
+git add         //stages all changes
+git commit -m "<text>"  //save the snapshot
+
+
+--send to github--
+git branch -M main
+git remote add origin https://github.com/<username>/<reponame>.git
+git push -u origin main
